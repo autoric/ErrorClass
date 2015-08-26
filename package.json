@@ -1,0 +1,23 @@
+{
+  "name": "error-class",
+  "version": "0.0.2",
+  "repository": "https://github.com/autoric/error-class",
+  "keywords" : ["error", "custom error"],
+  "main": "src/error.js",
+  "license":"MIT",
+  "author":{
+    "name":"Erin Noe-Payne"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -w"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0"
+  }
+}
